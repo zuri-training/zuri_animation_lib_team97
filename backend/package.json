@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/dimojiakufrancis/zuri_animation_lib_team97#readme",
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.19"
   }
 }
