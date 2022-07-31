@@ -6,7 +6,7 @@ router.post('/register', (req, res, next) => {
 });
 
 router.get("/", (req, res, next) => {
-    res.send("<h1>Welcome on board!</h1>");
+    res.send("<h1>Return a user</h1>");
 });
 
 
