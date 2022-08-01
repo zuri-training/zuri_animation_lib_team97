@@ -3,15 +3,22 @@ const user = require('./routes/user');
 const profile = require('./routes/profile');
 const favourite = require('./routes/favourite');
 const comment = require('./routes/comment');
-const auth = require('./routes/auth');
+
 
 const app = express();
 
-app.use(auth);
 app.use("/user", user);
 app.use("/profile", profile);
 app.use("/favourite", favourite);
 app.use("/comment", comment);
+
+app.get("/", (req, res, next) => {
+    res.send("<h1>Welcome home!!</h1>");
+});
+
+app.use((req, res, next) => {
+    res.status(404).send("<h1>Page not found!!</h1>");
+});
 
 
 app.listen(3000);
