@@ -13,7 +13,7 @@ router.get('/logout', (req, res, next) => {
     res.send("<h1>You are logged out!!</h1>")
 });
 
-router.get("/", (req, res, next) => {
+router.get("/:id", (req, res, next) => {
     res.send("<h1>Return a user</h1>");
 });
 
