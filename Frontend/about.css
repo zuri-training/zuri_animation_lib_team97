@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;800&family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* Css for header */
+
+.navwrap{
+  position: sticky;
+  font-family: 'Poppins', sans-serif;
+  background-color: #B721FC;
+  width: 100%;
+  height: 80px;
+  display: flex;    
+  flex-direction: row;
+  gap: 74px;
+  align-items: center;
+  width: 1440px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+}
+
+.logowrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* width: 177px;
+  height: 60px; */
+}
+
+.help-head{
+  display: flex;
+  align-items: center;
+}
+
+.zing-img{
+  width:49px;
+  height: 27px;
+}
+/* 
+.logo{
+  width: 49px;
+  height: 54px;
+  padding-right: 100px;
+}
+
+.logotxt{
+  width: 104px;
+  height: 60px;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.05em;
+} */
+.menu{
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+
+.home, .doc, .download, .explore, .about {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+} 
+
+.input{
+  padding: 0px;
+  padding-left: 40px;
+}
+
+.search{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.loginbtn, .signupbtn{
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0px;
+}
+
+img{
+  padding: 100px;
+}
+
+input{
+  border: 1px solid gray;
+  border-radius: 5px; 
+}
+
+
+body{
+font-family: 'Poppins',sans-serif;
+background-color: #F5F5F5;
+color: #555555;
+scrollbar-width: thin;
+
+}
+
+h1,h2,h3,h4,p, li{
+  font-family: 'Noto Sans', sans-serif;
+ 
+   color:#555555;
+   font-size: 40px;
+ 
+   font-weight: 500;
+}
+
+p,li{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30.43px;
+}
+
+
+/* CSS for main */
+.abt-main{
+  display: flex;
+  align-items: center;
+}
+.sec-main{
+  display: flex;
+  align-items: center;
+}
+.third-main{
+  display: flex;
+  align-items: center;
+}
+.fourth-main{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.first-txt{
+  width: 50%;
+}
+/* .fourth-txt{
+   display: flex; 
+   text-align: right;
+}  */
+.david{
+   
+}
+
+.abt-btn{
+  background-color: #B721FC;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+
+input[type=text], textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+  /* CSS for Footer */
+  /* footer{
+    height: 50%;
+  } */
+ .main-footer{
+  width: 100vw;
+  height: 100vh;
+   background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
+
+  padding: 6rem 6rem;
+  
+}
+.footer-content{
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.footer-content > div{
+  width: 40%;
+}
+.location,
+.phone,
+.email{
+  display: flex;
+  color: var(--box-shadow-color);
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0.2rem;
+  /* padding: 1rem; */
+}
+.email{
+  padding-top:0.5px;
+}
+.phone, .email{
+  /* padding-left: 0.1px; */
+}
+.location img,
+.phone img,
+.email img{
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-logo{
+  margin-bottom: 2rem;
+}
+.list-item{
+  margin-bottom: .5rem;
+}
+.list-item a{
+  color: var(--box-shadow-color);
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer-list1{
+  padding-left: 7rem;
+}
+
+.footer-list2{
+  padding-left: 5rem;
+  text-decoration: none;
+}
+
+.social{
+  width: 20%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  transition: all .5s ease-in;
+}
+.icon:hover{
+  background-color: var(--secondary);
+}
+
+.icon i{
+  font-size: 2rem;
+  color: #fff;
+} 
+.copyright{
+  justify-items: center;
+  text-align: center;
+  font-size: medium;
+  color: #FFFFFF;
+  opacity: 0.5;
+  padding-top: 70px;
+  
+}

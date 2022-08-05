@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Sign Up/Login</title>
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="signin-signup">
+      <form action="" class="sign-in-form">
+        <h2 class="title">Log In</h2>
+        <div class="input-field">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Enter Full name" name="fullname" required>
+        </div>
+
+        <div class="input-field">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" name="Password" required>
+        </div>
+        <input type="submit" value="Login" class="btn">
+        <p class="social-text">Or SIgn In with any of these social platform</p>
+        <div class="social-media">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-google"></i>
+          </a>
+          <!-- <a href="" class="social-icon"></a>
+         <i class="fab fa-google"></i> -->
+        </div>
+
+
+      </form>
+
+      <form action="" class="sign-up-form">
+        <h2 class="title">Sign Up</h2>
+        <div class="input-field">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Enter Full name" name="fullname" required>
+        </div>
+        <div class="input-field">
+          <i class="fas fa-envelope"></i>
+          <input type="text" placeholder="Enter Email" name="email" required>
+        </div>
+        <div class="input-field">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" name="Password" required>
+        </div>
+
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label> 
+        <input type="submit" value="Sign Up" class="btn">
+        <p class="social-text">Or SIgn In with any of these social platform</p>
+        <div class="social-media">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-google"></i>
+          </a>
+          <p class="terms">By creating an account you agree to Zing <a href="#" style="color:purple">Terms of<br class="service"> Service & Privacy
+            Policy</a></p> 
+   
+        </div>
+       
+
+      </form>
+    </div>
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>Member of Zing already?</h3>
+          <p>Welcome Back!</p>
+          <button class="btn" id="sign-in-btn">Sign In</button>
+        </div>
+        <img src="img/left-panel.svg" alt="" class="image">
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>New to Zing?</h3>
+            <p>Glad to have you here</p>
+            <button class="btn" id="sign-up-btn">Sign Up</button>
+
+          </div>
+          <img src="img/right-panel.svg" alt="" class="image">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <script src="app.js"></script> -->
+
+
+
+
+
+
+
+
+</body>
+
+</html>
