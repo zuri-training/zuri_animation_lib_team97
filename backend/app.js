@@ -3,7 +3,7 @@ const user = require('./routes/user');
 const profile = require('./routes/profile');
 const favourite = require('./routes/favourite');
 const comment = require('./routes/comment');
-
+const mongoConnect = require('./utils/database').mongoConnect;
 
 const app = express();
 
@@ -20,5 +20,6 @@ app.use((req, res, next) => {
     res.status(404).send("<h1>Page not found!!</h1>");
 });
 
-
-app.listen(3000);
+mongoConnect(() => {
+    app.listen(3000);
+});
