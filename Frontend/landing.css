@@ -199,7 +199,7 @@ text-align: center;
 
 .shapes{
     width: 100%;
-    padding-right: 70px;
+    padding-right: 150px;
 }
 
 
@@ -268,7 +268,7 @@ text-fill-color: transparent;
    
     width: 52%;
     font-size: 20px;
-   border: 1px solid;
+   /* border: 1px solid; */
   justify-items: flex-end;
     color: #777777;
     text-align: right;
@@ -282,8 +282,8 @@ text-fill-color: transparent;
 }
 .card{
     
-    /* width: 90%; */
-    /* margin-left: 150px; */
+    width: 90%;
+    margin-left: 150px;
 }
 .brow, .exp{
     color: #777777;
