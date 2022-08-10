@@ -1,9 +1,7 @@
 const express = require('express');
 const router = express.Router();
-
-router.post('/register', (req, res, next) => {
-    res.send("<h1>Register users!</h1>");
-});
+const usercontroller = require('../controllers/user');
+router.post('/register', usercontroller.saveUser);
 
 router.post('/login', (req, res, next) => {
     res.send("<h1>Login</h1>");
