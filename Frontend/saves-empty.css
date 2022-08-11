@@ -136,18 +136,21 @@ input{
  .look{
     display: flex;
     font-size: 48px;
+    /* font-weight: 400; */
     color: #333333;
-    width:  70%;
+    width:  60%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: 210px;
+   
+    margin-left: 250px;
     padding-top: 50px;
  }
  .look-p{
     display: flex;
     color: #777777;
     font-size: 16px;
+ 
     justify-content: center;
     align-items: center;
     margin-top: 20px;

@@ -14,146 +14,135 @@
 /* CSS for Nav header */
 
 
-header{
-    position: absolute;
-    width: 100%;
-    height: 120px;
-    top: 0px;
-    font-family: "Poppins", sans-serif;
-    background: #FFFFFF;
+.navwrap{
     position: sticky;
     display: flex;    
     flex-direction: row;
+    gap: 74px;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
     box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.12);
     z-index: 1;
-}
-.navwrap{
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 100px;
-    gap: 33px;
 }
 
 .logowrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    width: 177px;
+    /* width: 177px; */
     height: 60px;
+    padding-left: 90px;
+}
+
+.logo{
+    padding-right: 10px;
+}
+
+.zinglogo, .avatar{
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(20, 2, 46, 0.05);
+    border-radius: 36px;
+    padding: 12px;
+    gap: 10px;
+    color: rgb(143, 69, 177); 
+    height: 2F0px;
+    width: 20px;
+}
+
+.logotxt{
+    width: 104px;
+    height: 60px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.05em;
+    color: #333333;
 }
 
 .menu{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 30px;
-    height: 40px;
-}
-
-.home, .doc, .download, .explore, .about {
     font-family: "Poppins", sans-serif;
+}
+.menu-wrap{
+    
+}
+.home, .doc, .download, .explore, .about {
+    font-family: 'Euclid Circular A';
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 20px;
     color: #333333;
-    padding: 15px;
+    padding: 20px;
     text-decoration: none;
 }
-
-a {
-    text-decoration: none;
-}
+.home{
+    color: #B721FC;
+} 
 
 .home:hover, .doc:hover, .download:hover, .explore:hover, .about:hover {
     color: #B721FC;
 }
 
-.hsls{
+.input{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 5px;
+    width: 400px;
     height: 40px;
 }
-#qstn{
-    padding-right: 5px;
-}
-.searchh{
-    display: flex;
+
+input{
+    border: 1px solid gray;
+    border-radius: 5px; 
 }
 
-.search{ 
-    border: 1px solid rgba(187, 187, 187, 1);
-    border-radius: 6px;
-    background-color: white;
+.search, .signupbtn, .loginbtn{
+    padding: 0px;
+    width: 180px;
     height: 40px;
-    padding-left: 20px;
 }
 
-.help{
-    color: gray;
+.signupbtn{
+    border: 0px;
+    background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%), linear-gradient(127.39deg, #B721FC 7.68%, #21D4FD 105.82%);
 }
-
-.icon{
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 15px;
-    z-index: 1;
-    color: gray;
-    background-color: white;
-    font-size: small;
-}
-
 .loginbtn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 78px;
-    height: 40px;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0em;
     color: #B721FC;
     border: none;
     background: #FFFFFF;
 }
 
-.signupbtn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 78px;
-    height: 40px;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0em;
-    color: #FFFFFF;
-    border: none;
-    background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
-}
 
 
 
  /* CSS for main */
+ .abt-fimg{
+    margin-top: 68px;
+    /* margin-left: 70px; */
+ }
+
+ .abt-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
  .like-h2{
     font-size: 48px;
     font-weight: 300;
     color: #333333;
-    margin-left: 95px;
-    padding-top: 30px;
+    margin-left: 93px;
+    padding-top: 50px;
  }
  .look{
     display: flex;
@@ -179,7 +168,7 @@ a {
  .see{
     display: flex;
     margin-top: 60px;
-    margin-left: 600px;
+    margin-left: 260px;
     font-size: 16px;
     justify-content: center;
     align-items: center;
@@ -196,5 +185,25 @@ a {
     font-size: 18px;
  }
 
+.download{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
 
-
+.you{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 30px;
+    width: 99%;
+}
+.first-p{
+    font-family: "Poppins", sans-serif;
+    margin-left: 85px;
+    color: #999999;
+    font-size: 20px;
+}
