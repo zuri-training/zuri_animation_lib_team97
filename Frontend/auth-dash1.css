@@ -201,15 +201,15 @@ background: #FFFFFF;
 border: 1px solid #BBBBBB;
 border-radius: 8px;
 
-}
-/* .input{
+ }
+ .input{
     width: 75px;
 height: 24px;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 24px;
 color: #BBBBBB;
-} */
+} 
 .field input:focus{
     border-bottom-width: 2px;
 }
@@ -311,9 +311,10 @@ border-radius: 16px;
 .left-dash{
     width: 100%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 48px;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 24px;
+    
  
 
 /* 
@@ -384,7 +385,8 @@ text-fill-color: transparent;
 font-size: 16px;
 line-height: 24px;
 color: #D40000;
-padding-top: 420px;
+padding-top: 460px;
+margin-left: 24px;
 }
 
 .field input-field{
@@ -400,6 +402,7 @@ color: #2B2B2B;
 }
 .save{
     padding: 12px 40px;
+    font-size: 20px;
 width: 227px;
 height: 54px;
 background: linear-gradient(143.86deg, #E7B4FE 17.85%, #9AEBFE 151.11%);

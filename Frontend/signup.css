@@ -94,7 +94,7 @@ form{
     border: none;
     font-size: 12px;
     font-weight: 400;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .field input{
     outline: none;

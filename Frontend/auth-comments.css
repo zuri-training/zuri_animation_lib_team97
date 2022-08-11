@@ -175,7 +175,7 @@ li {
 } */
 
 .store {
-    margin: 20px;
+    margin-left: 71px;
     padding: 20px;
   }
   
@@ -243,20 +243,29 @@ border-radius: 24.4138px;
     padding: 50px;
     /* gap: 50px; */
     padding-bottom: 200px;
+   
+   
   }
   .fade{
     width: 149.53px;
-/* height: 37px; */
-border: 1px solid;
+height: 37px;
+/* border: 1px solid; */
 font-family: inherit;
-font-style: normal;
+
 font-weight: 400;
 font-size: 24.4138px;
 /* line-height: 37px; */
 color: #333333;
-/* margin-bottom: 40px; */
-  }
+ /* padding-right: 80px; */
+ justify-content: flex-start;
+ /* padding-bottom: 200px;  */
 
+  }
+.fadow{
+    /* display: flex; */
+   
+    /* justify-content: space-between; */
+}
   .icons {
     font-family: inherit;
     font-style: normal;
@@ -351,7 +360,7 @@ opacity: 0.9;
     color: #FFFFFF;
     font-size: 16px;
     align-items: center;
-    padding-bottom: 30px;
+    margin-bottom: 400px;
 }
 .input{
    padding-left: 10px;
@@ -371,6 +380,7 @@ opacity: 0.9;
 .right-container{
     margin-top: 108px;
     margin-left: 60px;
+    width: 100%;
 }
 .right-content{
     display: flex;
@@ -400,7 +410,7 @@ opacity: 0.9;
 .lorem{
     color: #999999;
     font-size: 16px;
-    width: 85%;
+    width: 100%;
     padding-top: 9px;
     padding-left: 22px;
 }
