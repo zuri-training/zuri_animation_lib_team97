@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> ZING </title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="signup.css">
+                
+        <!-- Boxicons CSS -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+                        
+    </head>
+    <body>
+        <section class="container forms">
+            <div class="form login rightbod">
+                <div class="form-content">
+                    <header>Create New Account</header>
+                 
+                    <div class="form-link">
+                        <span>Already have an account? <a href="#" class="link signup-link" style="color: #b721fc; font-weight: 600;">Sign in</a></span>
+                    </div>
+                    <form action="#">
+                        <div class="field input-field"> First Name<span class="star">*</span>
+                            <input type="text" placeholder="John" class="input">
+                        </div>
+
+                        <div class="field input-field"> Last Name<span class="star">*</span>
+                            <input type="text" placeholder="Doe" class="input">
+                           
+                        </div>
+                        <div class="field input-field"> Email<span class="star">*</span>
+                            <input type="email" placeholder="JohnDoe@gmail.com" class="input">
+                        </div>
+
+                        <div class="field input-field"> Password<span class="star">*</span>
+                            <input type="password" placeholder="********" class="password" maxlength="100" minlength="8" required>
+                            <i class='bx bx-hide eye-icon'></i>
+<!--                             
+				<ul class="input-requirements">
+					<li>At least 8 characters long (and less than 100 characters)</li>
+					<li>Contains at least 1 number</li>
+					<li>Contains at least 1 lowercase letter</li>
+					<li>Contains at least 1 uppercase letter</li>
+					<li>Contains a special character (e.g. @ !)</li>
+				</ul> -->
+                        </div>
+
+                        
+
+                        <div class="field button-field">
+                            <button>Sign in</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="line"></div>
+
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="img/google.svg" class="google-img">
+                        <span>Continue with Google</span>
+                    </a>
+                </div>
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Continue with Facebook</span>
+                    </a>
+                </div>
+                <footer>
+                    <p class="by">By creating an account you agree to Zing <span id="terms">Terms of Service</span>  and <span id="priv">Privacy Policy.</span></p>
+                </footer>
+            </div>
+
+            <div class="logo leftbod">
+                <svg width="720" height="1024" viewBox="0 0 720 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_506_1527)">
+                    <rect width="720" height="1024" fill="url(#paint0_linear_506_1527)"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M145 512L160.108 458.858H241.622L200.435 512H145Z" stroke="white" stroke-width="17.7644" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M241.622 512L226.514 565.142H145L186.187 512H241.622Z" stroke="white" stroke-width="17.7644" stroke-miterlimit="22.9256" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M282.755 559V542.16L338.381 474.801L338.657 477.7L334.516 472.179L337.277 474.387H284.411V458.237H360.052V475.077L304.288 542.298L303.873 539.124L308.428 545.335L305.116 542.85H360.742V559H282.755ZM373.367 559V484.049H392.553V559H373.367ZM362.876 498.404V484.049H392.553V498.404H362.876ZM380.406 475.077C376.633 475.077 373.827 474.111 371.986 472.179C370.238 470.154 369.364 467.67 369.364 464.725C369.364 461.596 370.238 459.066 371.986 457.133C373.827 455.201 376.633 454.235 380.406 454.235C384.179 454.235 386.94 455.201 388.688 457.133C390.436 459.066 391.311 461.596 391.311 464.725C391.311 467.67 390.436 470.154 388.688 472.179C386.94 474.111 384.179 475.077 380.406 475.077ZM407.763 559V484.049H422.947V516.21H421.566C421.566 508.573 422.579 502.223 424.603 497.162C426.627 492.009 429.618 488.144 433.575 485.568C437.624 482.991 442.639 481.703 448.62 481.703H449.449C458.375 481.703 465.138 484.601 469.739 490.399C474.34 496.104 476.641 504.662 476.641 516.072V559H457.454V514.416C457.454 509.815 456.12 506.088 453.451 503.236C450.875 500.383 447.286 498.957 442.685 498.957C437.992 498.957 434.173 500.429 431.228 503.374C428.376 506.226 426.95 510.091 426.95 514.968V559H407.763ZM519.629 588.539C516.04 588.539 512.359 588.401 508.586 588.125C504.905 587.848 501.455 587.48 498.234 587.02V571.009C501.547 571.377 505.089 571.699 508.862 571.975C512.635 572.343 516.178 572.527 519.491 572.527C525.656 572.527 530.625 571.791 534.398 570.319C538.263 568.846 541.069 566.5 542.818 563.279C544.658 560.15 545.578 556.147 545.578 551.27V536.501L549.719 527.115C549.443 534.016 548.017 539.906 545.44 544.783C542.864 549.568 539.367 553.249 534.95 555.825C530.533 558.31 525.426 559.552 519.629 559.552C514.475 559.552 509.782 558.586 505.549 556.653C501.409 554.721 497.82 552.052 494.783 548.648C491.838 545.243 489.538 541.24 487.882 536.639C486.225 532.038 485.397 527.115 485.397 521.87V518.971C485.397 513.726 486.225 508.849 487.882 504.34C489.63 499.739 492.068 495.736 495.197 492.331C498.326 488.926 502.053 486.304 506.378 484.463C510.703 482.623 515.488 481.703 520.733 481.703C526.898 481.703 532.235 483.037 536.744 485.706C541.345 488.374 544.934 492.239 547.511 497.3C550.087 502.361 551.514 508.573 551.79 515.934L548.477 516.486V484.049H563.66V550.166C563.66 559.276 562.096 566.638 558.967 572.251C555.839 577.864 551.008 581.959 544.474 584.536C538.033 587.204 529.751 588.539 519.629 588.539ZM525.15 543.126C528.831 543.126 532.189 542.298 535.226 540.642C538.263 538.986 540.701 536.593 542.542 533.464C544.382 530.336 545.302 526.563 545.302 522.146V517.315C545.302 513.082 544.336 509.493 542.404 506.548C540.563 503.604 538.125 501.395 535.088 499.923C532.051 498.358 528.739 497.576 525.15 497.576C521.101 497.576 517.512 498.542 514.383 500.475C511.347 502.315 508.954 504.938 507.206 508.343C505.457 511.747 504.583 515.796 504.583 520.489C504.583 525.09 505.457 529.093 507.206 532.498C508.954 535.903 511.347 538.525 514.383 540.366C517.512 542.206 521.101 543.126 525.15 543.126Z" fill="white"/>
+                    <circle cy="970" r="234" fill="#F1D3FB" fill-opacity="0.3"/>
+                    <circle cx="720" cy="60" r="234" fill="#F1D3FB" fill-opacity="0.3"/>
+                    </g>
+                    <defs>
+                    <linearGradient id="paint0_linear_506_1527" x1="132.25" y1="-71.5" x2="1437.06" y2="1184.85" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#B721FC"/>
+                    <stop offset="0.640625" stop-color="#21D4FD"/>
+                    </linearGradient>
+                    <clipPath id="clip0_506_1527">
+                    <rect width="720" height="1024" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>               
+            </div>
+        </section>
+
+        <!-- JavaScript -->
+        <script src="app.js"></script>
+    </body>
+</html>
