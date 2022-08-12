@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-size: 16px;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 /* Css for header */
 
@@ -154,12 +155,12 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f5f5f5;
+  background: #FFFFFF;
   color: #555555;
   scrollbar-width: thin;
   /* background-color: #B721FC; */
 }
-
+/* 
 h1,
 h2,
 h3,
@@ -172,55 +173,63 @@ li {
   font-size: 40px;
 
   font-weight: 500;
-}
-
+} */
+/* 
 p,
 li {
   font-weight: 400;
   font-size: 24px;
   line-height: 30.43px;
-}
+} */
 
 /* CSS for main */
 .abt-first {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  margin-top: 80.53px;
 }
 .abt-fimg {
   display: flex;
-  margin-left: 48px;
-  align-items: center;
-  justify-content: center;
-  padding-top: 45px;
+  margin: auto;
+  /* margin-left: 48px; */
+  /* align-items: center;
+  justify-content: center; */
+  /* padding-top: 45px; */
 }
 .abt-anim {
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-left: 160px;
+  /* margin-left: 160px; */
   padding-top: 40px;
 }
 
 .first-p {
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: center; */
+  /* text-align: center; */
   font-size: 20px;
   color: #777777;
-  width: 65%;
+  /* width: 100%; */
   padding-top: 5px;
-  margin-left: 142px;
-  margin-right: 90px;
+  margin: auto;
+  /* margin-left: 30px;
+  margin-right: 200px; */
 }
 .made{
-  font-size: 42px;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  padding-right: 120px;
-   /* margin-right: 100px; */
+ /* display: flex; */
+  font-weight: 600;
+  font-size: 40px;
+  color: #2B2B2B;
+ margin: auto;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* padding-right: 130px; */
+  /* padding-top: 64px; */
+  
 }
 .easy{
   background: linear-gradient(143.86deg, #b721fc 17.85%, #21d4fd 151.11%);
@@ -228,40 +237,41 @@ li {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  /* font-weight: 700; */
+  font-weight: 600;
   font-size: 40px;
 }
 .abt-sec {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 .abt-simg {
   display: flex;
-  margin-left: 20px;
+  margin: auto;
+  /* margin-left: 20px;
   align-items: center;
-  justify-content: center;
-  padding-top: 45px;
+  justify-content: center; */
+  padding-top: 87.4px;
 }
 .whyuse {
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  padding-top: 50px;
-  margin-left: 560px;
+    padding-top: 60px;
+  margin: auto;
+  /* margin-left: 560px; */
 }
 .why-cont {
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .second-p {
   font-size: 20px;
   color: #777777;
-  width: 68%;
+  width: 74%;
   text-align: center;
-  margin-left: 217px;
-  padding-top: 5px;
+  margin-left: 170px;
+  padding-top: 16px;
+  margin-bottom: 230.53px;
 }
 
 .sec-main {
@@ -309,11 +319,28 @@ li {
   width: auto;
 }
 .contact {
-  text-align: center;
+  /* text-align: center; */
   font-weight: 600;
 font-size: 40px;
+background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+/* justify-content: center; */
 }
+.feel{
+  font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+color: #777777;
+padding-top: 4px;
+/* margin: auto; */
+text-align: center;
+/* margin-right: 50px;
+margin-left: 70px; */
 
+}
 li a {
   font-weight: 400;
   font-size: 24px;
@@ -349,14 +376,19 @@ b {
     rgba(154, 235, 254, 0.2) 151.11%
   );
   height: 778px;
+  /* padding-top: 240.53; */
+}
+
+.contact-form{
+  margin: auto;
 }
 .contact-us {
   width: 50%;
-
+  /* padding-top: 240.53; */
   padding: 50px;
   margin: 30px auto;
   /* border-radius: 0px; */
-  position: relative;
+  /* position: relative; */
 }
 .contact {
   background: linear-gradient(143.86deg, #b721fc 17.85%, #21d4fd 151.11%);
@@ -372,17 +404,24 @@ b {
   /* letter-spacing: 5px; */
   margin-bottom: 25px;
 }
-
+.title{
+  text-align: center;
+}
 .form,
 .form-items {
   width: 100%;
 }
-
+.form{
+  margin-left: 80px;
+}
 .form-items .input {
-  width: 90%;
-  height: 44px;
+  /* width: 90%;
+  height: 44px; */
+  width: 424px;
+  height: 48px;
   margin-bottom: 12px;
-  padding: 15px 40px;
+  
+  padding: 12px 8px;
   box-sizing: border-box;
   background: #ffffff;
   border: 0px;
@@ -395,7 +434,7 @@ b {
   height: 134px;
 
   margin-bottom: 30px;
-  padding: 15px 15px;
+  padding: 12px 8px;
 
   height: 163px;
 
@@ -406,17 +445,16 @@ b {
 }
 
 .btn {
-  background: linear-gradient(143.86deg, #b721fc 17.85%, #21d4fd 151.11%);
-  border-radius: 8px;
-  width: 90%;
-
- 
-  padding: 12px;
-  text-align: center;
+  padding: 12px 40px;
+width: 424px;
+height: 54px;
+background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
+border-radius: 8px;
 
   cursor: pointer;
-
+text-align: center;
   opacity: 0.9;
+  margin: auto;
 }
 .send{
   color: white;

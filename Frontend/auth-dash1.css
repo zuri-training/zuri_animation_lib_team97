@@ -189,9 +189,17 @@ form{
     /* height: 100%;
     width: 100%; */
     border: none;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 400;
     border-radius: 10px;
+    /* padding-bottom: 40px; */
+}
+.field button-field{
+   /* display: flex;
+   justify-content: flex-end; */
+    
+    /* text-align: left; */
+    /* padding-bottom: 40px; */
 }
 .field input{
    padding: 12px 8px;
@@ -200,6 +208,7 @@ height: 48px;
 background: #FFFFFF;
 border: 1px solid #BBBBBB;
 border-radius: 8px;
+font-size: 16px;
 
  }
  .input{
@@ -227,6 +236,7 @@ color: #BBBBBB;
     color: #fff;
     background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%), #B721EC;
     cursor: pointer;
+    /* padding-bottom: 40px; */
 }
 
 .form-link{
@@ -291,29 +301,24 @@ color: #BBBBBB;
 .prof-container{
     display: flex;
     justify-content: center;
-  
-
-    /* align-items: center; */
-   
-/* position: absolute; */
-width: 759px;
+  width: 759px;
 height: 682px;
 margin-top: 100px;
 margin-bottom: 100px;
-/* left: 340px; */
-/* left:auto; */
 top: 217px;
-
 background: #FFFFFF;
 box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.03), 0px 0px 8px rgba(0, 0, 0, 0.1);
 border-radius: 16px;
 }
 .left-dash{
-    width: 100%;
+    width: auto;
     display: flex;
-    margin-top: 48px;
+    padding-top: 48px;
+    /* margin-top: 48px; */
     flex-direction: column;
-    margin-left: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-right: 0.5px solid #D1D1D1;
     
  
 
@@ -325,8 +330,11 @@ border: 0.5px solid #D1D1D1; */
 
 .right-dash{
     width: 100%;
-    margin-right: 30px;
-    margin-top: 50px;
+
+    /* margin-right: 30px;
+    margin-top: 50px; */
+    padding-top: 48px;
+    padding-left: 36px;
 }
 
 .top-right{
@@ -407,8 +415,7 @@ width: 227px;
 height: 54px;
 background: linear-gradient(143.86deg, #E7B4FE 17.85%, #9AEBFE 151.11%);
 border-radius: 8px;
-/* right: 50px; */
-margin-top: 100px;
-margin-left: 200px;
+
 opacity: 0.4;
+
 }
