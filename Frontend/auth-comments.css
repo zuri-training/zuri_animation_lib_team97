@@ -27,7 +27,7 @@ header{
 .nav-menu {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 .nav-user-options {
     display: flex;
@@ -51,7 +51,7 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   /* color: #555555; */
   /* scrollbar-width: thin; */
 
@@ -129,7 +129,7 @@ border-radius: 24.4138px;
     height: 305.17px;
     left: -0.41px;
     top: -0.41px;
-            background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
+    background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
     border-radius: 30.5172px;
 
   }
@@ -168,11 +168,7 @@ color: #333333;
  /* padding-bottom: 200px;  */
 
   }
-.fadow{
-    /* display: flex; */
-   
-    /* justify-content: space-between; */
-}
+
   .icons {
     font-family: inherit;
     font-style: normal;
