@@ -1,0 +1,249 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+   
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.login{
+    position: absolute;
+    height: 50%;
+    right: 685px;
+    top: 0px;
+}
+
+.logo{
+    position: absolute;
+    height: 40px;
+    left: 685px;
+    top: 0px;
+
+
+}
+
+
+.form{
+    /*position: absolute;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;*/
+
+    position: absolute;
+    width: 434px;
+    height: 562px;
+    left: 143px;
+    top: 231px;
+
+}
+
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+header{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid gray;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 90%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    color: #fff;
+    background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%), #B721EC;
+    cursor: pointer;
+}
+
+.form-link{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.form-linkk {
+    text-align: end;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    color: gray;
+    outline: none;
+}
+.forgot-pass {
+    color: gray;
+}
+
+.form-link span{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook{
+    border: 1px solid;
+    border-top-color: #B721FC;
+    border-bottom-color: #7cabcc;
+}
+a.facebook span{
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+}
+
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0171d3;
+}
+.facebook-icon,
+img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+}
+img.google-img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+a.google{
+    border: 1px solid;
+    border-top-color: #B721FC;
+    border-bottom-color: #7cabcc;
+}
+a.google span{
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+}
+
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -200px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 18px;
+  text-align: center;
+  color: black;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: black;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+@media screen and (max-width: 375px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+}
+

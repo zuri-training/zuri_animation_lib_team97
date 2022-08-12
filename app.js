@@ -5,6 +5,20 @@ const profile = require('./routes/profile');
 const favourite = require('./routes/favourite');
 const comment = require('./routes/comment');
 const mongoose = require('mongoose');
+require('dotenv').config()
+
+const { DATABASE_URI } = process.env ?? {}
+
+async function connect() {
+    try {
+        let result = await mongoose.connect(DATABASE_URI)
+
+        console.log('Database connected!', result)
+    } catch (error) {
+        console.log('Connection error: ', error?.message)
+    }
+}
+connect()
 
 const app = express();
 
@@ -26,11 +40,7 @@ app.use((req, res, next) => {
     res.status(404).send("<h1>Page not found!!</h1>");
 });
 
-mongoose
-.connect('mongodb+srv://animlib:SS03I0XYhy6POvI4@cluster0.npfqb.mongodb.net/animalib')
-.then(result => {
-    app.listen(3000);
+
+app.listen(3000, () => {
+    console.log('listening on port 3000')
 })
-.catch(err => {
-    console.log(err);
-});

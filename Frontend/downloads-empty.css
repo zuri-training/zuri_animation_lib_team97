@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/* CSS for Nav header */
+
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 0px;
+    font-family: "Poppins", sans-serif;
+    background: #FFFFFF;
+    position: sticky;
+    display: flex;    
+    flex-direction: row;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.12);
+    z-index: 1;
+}
+.navwrap{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 33px;
+}
+
+.logowrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 177px;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    height: 40px;
+}
+
+.home, .doc, .download, .explore, .about {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home:hover, .doc:hover, .download:hover, .explore:hover, .about:hover {
+    color: #B721FC;
+}
+
+.hsls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    height: 40px;
+}
+#qstn{
+    padding-right: 5px;
+}
+.searchh{
+    display: flex;
+}
+
+.search{ 
+    border: 1px solid rgba(187, 187, 187, 1);
+    border-radius: 6px;
+    background-color: white;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.help{
+    color: gray;
+}
+
+.icon{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    z-index: 1;
+    color: gray;
+    background-color: white;
+    font-size: small;
+}
+
+.loginbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #B721FC;
+    border: none;
+    background: #FFFFFF;
+}
+
+.signupbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    border: none;
+    background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
+}
+
+
+
+ /* CSS for main */
+ .like-h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #333333;
+    margin-left: 95px;
+    padding-top: 66px;
+ }
+ .look{
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+    color: #333333;
+    width:  60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 320px;
+    padding-top: 50px;
+ }
+ .look-p{
+    display: flex;
+    color: #777777;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 60px;
+ }
+ .see{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 600px;
+    margin-bottom: 180px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid;
+    color: #E6EAEE;
+    background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
+    height: 55px;
+   width: 200px;
+   text-align: center;
+ }
+ .see-txt{
+    color: #E6EAEE;
+    font-size: 18px;
+ }
+
+
+
