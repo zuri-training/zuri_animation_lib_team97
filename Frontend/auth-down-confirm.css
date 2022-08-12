@@ -137,6 +137,9 @@ input{
     justify-content: center;
     align-items: center;
  }
+ .abt-anim {
+    text-align: center;
+ }
  .like-h2{
     font-size: 48px;
     font-weight: 300;
@@ -166,19 +169,16 @@ input{
     margin-left: 60px;
  }
  .see{
-    display: flex;
     margin-top: 60px;
     margin-left: 260px;
     font-size: 16px;
-    justify-content: center;
-    align-items: center;
     border-radius: 7px;
     border: 1px solid;
     color: #E6EAEE;
     background: linear-gradient(143.86deg, #B721FC 17.85%, #21D4FD 151.11%);
-    height: 55px;
-   width: 200px;
-   text-align: center;
+    text-align: center;
+    padding: 12px 15px;
+    margin: auto;
  }
  .see-txt{
     color: #E6EAEE;
