@@ -35,7 +35,8 @@ https://docs.google.com/document/d/1IpxN0hQ5phj1hY3Rt8Z0FKe1BUhic_3jF33vqvd2vg4/
 
 
 The figma link to the completed design created from the useflow can be found below:
-# Figma Link - https://www.figma.com/file/YXo3jvJTwsUwWYbpqs9UFF/Project-Zing?node-id=0%3A1
+https://www.figma.com/file/z7GURGN1E6YjK1ShuOdtwr/Project-Zing-(Copy)?node-id=209%3A3
+
 
 The design served as a template with which  the developers to used to create the animation library. 
 
